@@ -187,7 +187,7 @@ def capture_pages(num_pages, delay_between_pages, monitor_resolution):
             time.sleep(delay_between_pages)
 
 def main():
-    print("=== Automatic Kindle Page Capturer (High Quality) ===")
+    print("=== Automatic Kindle Page Capturer ===")
     print("IMPORTANT: Make sure the Kindle window is open and visible")
     print("           with the book on the first page you want to capture.")
     monitor_resolution = select_resolution()
